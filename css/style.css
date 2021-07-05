@@ -150,6 +150,11 @@ button {
 
 /* 결과 로딩 */
 
+.field_result,
+.time_result {
+  font-weight: 800;
+}
+
 .result_loading {
   display: none;
   justify-content: center;
@@ -235,7 +240,6 @@ button {
   height: 600px;
   background-color: white;
   border-radius: 20px;
-  opacity: 0.9;
 }
 
 #modal .cheer {
@@ -272,5 +276,8 @@ button {
 #copyright {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+}
+
+.logo_img {
+  padding-bottom: 10px;
 }
