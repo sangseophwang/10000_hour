@@ -1,11 +1,5 @@
 @import "/css/reset.css";
-@font-face {
-  font-family: "OTEnjoystoriesBA";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
 
 body {
   width: 100%;
@@ -251,7 +245,7 @@ button {
 #modal .cheer {
   color: #5b2386;
   text-align: center;
-  font-family: "OTEnjoystoriesBA";
+  font-family: "Nanum Brush Script", cursive;
 }
 
 #modal .cheer h1 {
